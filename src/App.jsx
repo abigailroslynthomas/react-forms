@@ -32,7 +32,7 @@ function App() {
     }
   };
 
-  // Handle authentication by stored token
+  // Authenticates by stored token
   const handleAuthenticate = async () => {
     if (!token) {
       setError('No token found. Please sign up first.');
